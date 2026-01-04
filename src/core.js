@@ -287,7 +287,7 @@ function printResult(result) {
             console.log(`    ${colors.dim(finding.description)}`);
         }
     } else {
-        console.log(`\n${colors.green('✓ No suspicious indicators found')}`);
+        console.log(`\n${colors.green('[OK] No suspicious indicators found')}`);
     }
 
     console.log(colors.cyan('\n' + '─'.repeat(60)));
